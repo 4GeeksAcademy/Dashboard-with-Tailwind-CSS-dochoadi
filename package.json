@@ -1,0 +1,31 @@
+{
+  "name": "influencer-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Static influencer analytics dashboard built with HTML and Tailwind CSS v4 (no JavaScript).",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "python3 server.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4GeeksAcademy/Dashboard-with-Tailwind-CSS-dochoadi.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "dashboard",
+    "html"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/4GeeksAcademy/Dashboard-with-Tailwind-CSS-dochoadi/issues"
+  },
+  "homepage": "https://github.com/4GeeksAcademy/Dashboard-with-Tailwind-CSS-dochoadi#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "private": true
+}
